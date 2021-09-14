@@ -1,0 +1,54 @@
+.container-sobre{
+    background: rgba(132, 0, 255, 0.712);
+    border: 1px solid rgb(15, 9, 22);
+    box-shadow: 0px 0px 10px rgb(15, 9, 22);
+    padding: 1em 5em;
+}
+.descricao-sobre{
+    max-width: 400px;
+}
+.descricao-sobre h1{
+    font-size: 2em;
+    color: rgb(255, 255, 255);
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.descricao-sobre h1::after{
+    content: "";
+    clear: both;
+    margin: 5px auto;
+    display: table;
+    background: rgba(255, 255, 255, 0.37);
+    width: 300px;
+    height: 1px;
+}
+.descricao-sobre p{
+    margin: 20px auto;
+    font-size: 1em;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 20px;
+}
+.descricao-sobre button{
+    padding: 1.5em;
+    cursor: pointer;
+    background: rgb(29, 29, 29);
+    border: none;
+    color: white;
+    border-radius: 5px;
+    width: 300px;
+}
+.descricao-sobre button:hover{
+    background: rgb(43, 43, 43);
+    border: 1px solid rgb(111, 0, 255);
+}
+.image-sobre img{
+    margin: 10px auto;
+    max-width: 200px;
+}
+@media screen and (max-width: 800px){
+    .container-sobre{
+        display: none;
+    }
+}

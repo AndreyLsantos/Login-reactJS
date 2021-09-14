@@ -1,0 +1,119 @@
+body{
+    background: url('background.jpg') no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-principal{
+    background: rgba(51, 51, 51, 0.747);
+    padding: 1em;
+    border: 1px solid rgb(15, 9, 22);
+    box-shadow: 0px 0px 10px rgb(15, 9, 22);
+}
+.icon-login img{ 
+    width: 200px;
+}
+.icon-login h1{
+    margin: 20px auto;
+}
+.icon-login h1::after{
+    content: "";
+    clear: both;
+    display: table;
+    margin: 0 auto;
+    width: 100px;
+    height: 2px;
+    background: white;
+}
+.input-login{
+    background: #222;
+    margin: 10px auto;
+    display: flex;
+
+    align-items: center;
+    justify-content:initial;
+}
+.input-login input{
+    background: transparent;
+    border: none;
+    color: white;
+    width: 300px;
+    margin: 10px auto;
+    padding: .5em;
+}
+.input-login input:focus{
+    outline: 0;
+}
+.input-login .icon-user{
+    font-size: 30px ;
+    margin: 5px;
+} 
+
+.input-senha{
+    background: #222;
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.input-senhaBad{
+    border: 1px solid red;
+}
+.input-senha input{
+    background: transparent;
+    border: none;
+    width: 300px;
+    color: white;
+    margin: 10px auto;
+    padding: .5em;
+}
+.input-senha input:focus{
+    outline: 0;
+}
+.input-senha .icon-senha{
+    font-size: 30px ;
+    margin: 5px;
+} 
+
+.container-btn button{
+    padding: 1em;
+    border:none;
+    width: 330px;
+    font-size: 1em;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    background: rgb(111, 0, 255);
+    cursor: pointer;
+}
+.container-btn button:hover{
+    background: rgb(29, 29, 29);
+    border: 1px solid rgb(111, 0, 255);
+}
+.links{
+    margin: 20px auto;   
+}
+.links a{
+    color: rgb(214, 182, 255);
+    margin: 0px 10px;
+    text-decoration: none;
+}
+.links a:hover{
+    color: white;
+}
+.cadastrar{
+    margin: 20px auto;   
+}
+.cadastrar a{
+    color: rgb(214, 182, 255);
+    margin: 0px 10px;
+    text-decoration: none;
+}
+.cadastrar a:hover{
+    color: white;
+}

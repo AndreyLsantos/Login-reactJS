@@ -117,3 +117,20 @@ body{
 .cadastrar a:hover{
     color: white;
 }
+.sociais img{
+    cursor: pointer;
+    padding: .5em;
+    width: 50px;
+}
+.sociais h1{
+    font-size: 1.5em;
+}
+.sociais h1::after{
+    content: "";
+    clear: both;
+    display: table;
+    margin: 0 auto;
+    width: 100px;
+    height: 2px;
+    background: white;
+}

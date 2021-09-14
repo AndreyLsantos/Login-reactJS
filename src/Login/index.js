@@ -34,6 +34,16 @@ const Login = () => {
                  <div className="cadastrar">
                  <p>Não possui cadastro?<a href="#">Clique aqui</a></p>
                  </div>
+                 
+                 <div className="sociais">
+                     <h1>Entrar com</h1>
+                    <div>
+                        <a href="#"><img src={facebook}></img> </a>
+                        <a href="#"><img src={linkedin}></img></a>
+                        <a href="#"><img src={google}></img></a>
+                    </div> 
+                   
+                </div>
 
             </div>
         </div>

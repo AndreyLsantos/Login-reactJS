@@ -2,6 +2,9 @@ import React, { useState } from 'react';
 import './login.css';
 import { MdLock, MdAssignmentInd } from "react-icons/md";
 import iconLogin from "./icon-login.png";
+import facebook from "./face.png";
+import linkedin from "./link.png";
+import google from "./google.png";
 
 const Login = () => {
 
